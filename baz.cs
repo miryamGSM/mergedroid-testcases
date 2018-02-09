@@ -56,7 +56,7 @@ namespace Codice.CM.SemanticMerge.Gui.Merge
             IFileNavigator fileNavigator)
         {
             mFileTrees = fileTrees;
-            mToolInfo = toolInfo;
+            mToolInfo = toolInfo;//2
 
             mContributorsView = new ContributorsView(
                 currentConflictUpdater,
